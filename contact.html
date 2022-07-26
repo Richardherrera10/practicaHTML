@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Xela contact</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <div>
         <header>
-            <nav>
+            <div class="navbar">
                 <ul>
                     <li><a href="index.html">Xela Hotel</a></li>
-                    <li><a href="info.html">Info</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="info.html"> Info</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="rooms.html">Rooms</a>
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="rooms.html#picadilly">Picadilly</a>
+                                <a href="rooms.html#cambridge">Cambridge</a>
+                                <a href="rooms.html#westminster">Westminster</a>
+                            </div>
+                        </div> 
+                    </li>
                     <li><a href="dining.html">Dining</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
+                
         </header>
-            <h1>Contact</h1>
+        <main>
+            <div class="cuerpo">
+                <h1>Contact</h1>
                 <div>
                     <label for="nombre">Name</label>
                     <input id="nombre" name="nombre" />
@@ -42,17 +56,21 @@
                     <label >No </label>
                     <input type="radio" name="customer" value="0" >
                 </div>
-                <button>Enviar</button>
-                <div>Cancelar</div>
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
-                    <li><a href="http://www.facebook.com"><img  src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
-                </ul>
+                <button class="contact">Enviar</button>
+                <button class="contact">Cancelar</button>
             </div>
-        </footer>
+        </main>
+          
+            <footer>
+                <div class="footerLinks">
+                    <ul>
+                        <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
+                        <li><a href="http://www.facebook.com"><img src="assets/social/facebook.png" alt="icon for facebook"></a></li>
+                        <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+                    </ul>
+                </div>
+    
+            </footer>
     </div>
 </body>
 </html>
