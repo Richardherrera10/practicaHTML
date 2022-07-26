@@ -1,5 +1,5 @@
 # Html-Css esencial (Práctica 1)
-
+## ej 
 ## Contexto del caso:
 Xela hotel desea estar a la vanguardia de la tecnología, por ello ha iniciado con el desarrollo de su pagina web, en donde quiere mostrar sus comodidas, los dormitorios, variedad de gastronomia y demas servicos que ofrece.
 
