@@ -3,37 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Xela Info</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <div>
         <header>
-            <nav>
+            <div class="navbar">
+                <ul>
                     <li><a href="index.html">Xela Hotel</a></li>
-                    <li><a href="info.html">Info</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="info.html"> Info</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="rooms.html">Rooms</a>
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="rooms.html#picadilly">Picadilly</a>
+                                <a href="rooms.html#cambridge">Cambridge</a>
+                                <a href="rooms.html#westminster">Westminster</a>
+                            </div>
+                        </div> 
+                    </li>
                     <li><a href="dining.html">Dining</a></li>
                     <li><a href="contact.html">Contact</a></li>
-            </nav>
+                </ul>
+            </div>
+                
         </header>
         <main>
             <article>
-                <h1>Essential Info</h1>
-                <section id="arrivalinfo">
-                    <h2 ><span>Arrival</span> Information</h2>
-                    <ul>
-                        <li><strong>Check-in:</strong><span> 3:00 PM</span></li>
-                        <li><strong>Check-out:</strong><span> 11:00 AM</span></li>
-                        <li><strong>Parking:</strong><span> Self-parking in the underground garage is ￡15 per day and valet-parking is ￡50 per day.</span></li>
-                        <li><strong>Airport Shuttle:</strong><span> Our complimentary airport shuttles leave every hour on the hour, and make trips to Heathrow and Gatwick airports.</span></li>
-                        <li><strong>Trains:</strong><span> <span>The nearest</span> Underground station is at Leicester Square.</span></li>
-                        <li><strong>Pet Policy:</strong><span> Pets of all sizes and types are allowed in designated pet rooms, and the specified common areas. Service animals are allowed everywhere.</span></li>
-                    </ul>
-                </section>
-                <section id="greenprogram">
-                    <h2>Landon Green Program</h2>
-                    <p><strong>The Landon Hotel - London</strong> was recently renovated, and we considered the impact on the earth the entire way. From green building materials, to solar power, to energy-friendly lighting and appliances throughout the hotel - we’re saving energy in every socket, outlet, and switch. We’ve also initiated a recycling and composting program that reduces the load to local landfills, while providing valuable raw material for use in new products, or in the case of compost, for use in local gardens and landscapes.</p>
-                </section>
+                <div class="cuerpo"> 
+                    <h1>Essential Info</h1>
+                    <section id="arrivalinfo">
+                        <h2 ><span>Arrival</span> Information</h2>
+                        <ul>
+                            <li><strong>Check-in:</strong><span> 3:00 PM</span></li>
+                            <li><strong>Check-out:</strong><span> 11:00 AM</span></li>
+                            <li><strong>Parking:</strong><span> Self-parking in the underground garage is ￡15 per day and valet-parking is ￡50 per day.</span></li>
+                            <li><strong>Airport Shuttle:</strong><span> Our complimentary airport shuttles leave every hour on the hour, and make trips to Heathrow and Gatwick airports.</span></li>
+                            <li><strong>Trains:</strong><span> <span>The nearest</span> Underground station is at Leicester Square.</span></li>
+                            <li><strong>Pet Policy:</strong><span> Pets of all sizes and types are allowed in designated pet rooms, and the specified common areas. Service animals are allowed everywhere.</span></li>
+                        </ul>
+                    </section>
+                    <section id="greenprogram">
+                        <h2>Landon Green Program</h2>
+                        <p><strong>The Landon Hotel - London</strong> was recently renovated, and we considered the impact on the earth the entire way. From green building materials, to solar power, to energy-friendly lighting and appliances throughout the hotel - we’re saving energy in every socket, outlet, and switch. We’ve also initiated a recycling and composting program that reduces the load to local landfills, while providing valuable raw material for use in new products, or in the case of compost, for use in local gardens and landscapes.</p>
+                    </section>
+                </div>
+                
             </article>
 
             <aside>
@@ -80,12 +97,15 @@
             </aside>
         </main>
 
-        <footer >
+        <footer>
+            <div class="footerLinks">
                 <ul>
                     <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
-                    <li><a href="http://www.facebook.com"><img  src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img " src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+                    <li><a href="http://www.facebook.com"><img src="assets/social/facebook.png" alt="icon for facebook"></a></li>
+                    <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
                 </ul>
+            </div>
+
         </footer>
     </div>
 </body>
